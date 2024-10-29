@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="jenis_ticket">
+        <item>First Class Ticket</item>
+        <item>Business Class Ticket</item>
+        <item>Economy Class Ticket</item>
+    </array>
+
+    <string name="tab_text_1">Register</string>
+    <string name="tab_text_2">Login</string>
+
+</resources>

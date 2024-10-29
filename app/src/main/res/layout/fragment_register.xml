@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/field_inputName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:paddingHorizontal="32dp"
+        android:hint="Username"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/field_inputNIM"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:paddingHorizontal="32dp"
+        android:hint="NIM"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/field_inputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:paddingHorizontal="32dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/field_inputPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:paddingHorizontal="32dp"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/field_inputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:paddingHorizontal="32dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:text="Register"
+        android:textSize="14sp"
+        android:backgroundTint="#525BFF"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
